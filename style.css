@@ -1,0 +1,146 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: "Freeman", sans-serif;
+    background-color: rgb(233, 233, 233);
+}
+
+/* navigacja */
+
+.navigation {
+    background-color: rgb(11, 125, 255);
+    color: white;
+    font-size: larger;
+}
+
+.loggo {
+    width: 180px;
+    aspect-ratio: 1;
+    float: left;
+}
+
+.buttons {
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 5;
+
+}
+
+.logo {
+    grid-column: 1;
+    grid-row: 1 / 1;
+    width:100%;
+    background: linear-gradient(to right, rgb(0, 58, 124), rgb(11, 125, 255));
+}
+
+.zarowka {
+    margin-top: 20px;
+}
+
+.button1:hover{
+    background-color: rgb(0, 90, 192);
+} 
+
+.button2:hover{
+    background-color: rgb(0, 90, 192);
+} 
+
+.button3:hover{
+    background-color: rgb(0, 90, 192);
+} 
+
+.button4:hover{
+    background-color: rgb(0, 90, 192);
+} 
+
+/* .main > div:nth-child(1)  */
+
+
+
+.button1 {
+    grid-column: 2;
+    grid-row: 1 / 1;
+    text-decoration: none;
+    color: white;
+}
+
+.button2 {
+    grid-column: 3;
+    grid-row: 1 / 1;
+    text-decoration: none;
+    color: white;
+}
+
+.button3 {
+    grid-column: 4;
+    grid-row: 1 / 1;
+    text-decoration: none;
+    color: white;
+}
+
+.button4 {
+    grid-column: 5;
+    grid-row: 1 / 1;
+    text-decoration: none;
+    color: white;
+}
+
+.margin1 {
+    margin-top: 80px;
+}
+
+.lgitc{
+    text-align: center;
+}
+
+.lgitc:hover{
+    background: linear-gradient(to right, rgb(11, 125, 255), rgb(0, 91, 196), rgb(11, 125, 255));
+    text-align: center;
+}
+
+
+/* content */
+
+.content {
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 0px 5px black;
+    margin-top: 5%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+/* druzyny div*/
+
+.druzynydiv {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+    text-align: center;
+}
+
+.druzynydiv h2 {
+    width: 768.795px;
+}
+
+.zdjzawodnika {
+
+}
+
+.zawodnik1{
+    grid-column: 1;
+    grid-row: 1 / 1;
+    width: 100%;
+}
+
+.zawodnik2 {
+    grid-column: 2;
+    grid-row: 1 / 1;
+    width: 100%;
+}
